@@ -86,3 +86,25 @@ body{
     /* (150% zoom -Note: if the zoom is too large, it will go
     outside of the viewport) */
 }
+
+@media (min-width: 800px) {
+    .hero {
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    .herotext {
+        font-size: 1rem;
+    }
+
+
+    .heroname {
+        font-size: 3.5rem;
+    }
+    
+    .button {
+        font-size: 1.1rem;
+    }
+    
+}
